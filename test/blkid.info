@@ -1,0 +1,4 @@
+/dev/sda1: LABEL="Mint" UUID="5712a580-d90f-473e-a16c-c96f361e48c5" TYPE="ext4" 
+/dev/sda2: LABEL="Windows" UUID="22CA022B22FF88D2" TYPE="ntfs" 
+/dev/sda3: UUID="13c1c5a2-2bc7-4ca1-842d-6a78facf4dd3" TYPE="swap" 
+/dev/sda4: LABEL="Manjaro" UUID="36d9f006-f87c-418c-be45-ceea9f981e51" TYPE="ext4" 
