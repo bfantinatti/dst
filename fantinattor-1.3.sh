@@ -4,6 +4,8 @@
 # Tested on Linux Mint
 # Name: DST - Data Safety Tool
 
+#versao de teste
+
 #info module
 if [ "$1" = "help" ]
 then
