@@ -6,10 +6,10 @@ import sys
 # pip install pytesseract
 
 
-def image2txt(Inp, Out):
+def image2txt(In, Out):
 
     # Open image object using PIL
-    image = Image.open(Inp)
+    image = Image.open(In)
 
     # f = open(Out, "x")
     f = open(Out, "w+")
@@ -31,6 +31,7 @@ if __name__ == "__main__":
         Output = str(sys.argv[2])
     else:
         print("\nError!!!")
-        sys.exit("Use '-i' or '--input' and '-o' or '--out' as flags!\n")
+        sys.exit("Use '-i' or '--input' and '-o' or '--output' as flags!\n")
 
-    image2txt(Inp=Input, Out=Output)
+    image2txt(In=Input, Out=Output)
+
