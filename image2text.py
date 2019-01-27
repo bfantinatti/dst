@@ -29,9 +29,10 @@ if __name__ == "__main__":
     elif ((str(sys.argv[1]) == '-o') or (str(sys.argv[1]) == '--output')):
         Input = str(sys.argv[4])
         Output = str(sys.argv[2])
+    elif len(sys.argv) != 3:
+        sys.exit("Usage: python3 image2text.py -i [INPUT] -o [OUTPUT]")
     else:
         print("\nError!!!")
         sys.exit("Use '-i' or '--input' and '-o' or '--output' as flags!\n")
 
     image2txt(In=Input, Out=Output)
-
